@@ -9,13 +9,15 @@ body {
   font-family: 'BhuTuka Expanded One', cursive;
   }
 
-.logo {
+/*  */
+
+logo {
   position: fixed;
-  width: 150px;
-  height: 150px;
   top: 0;
+  margin: auto;
 }
 
+/*  */
 
 .navbar {
   overflow: hidden;
@@ -47,13 +49,19 @@ body {
   float: right;
 }
 
+/*  */
+
 .navbar a.current-page {
   color: purple;
 }
 
+/*  */
+
 .main {
   margin-top: 45px;
 }
+
+/*  */
 
 button {
   background color: green;
@@ -64,15 +72,56 @@ button {
   font-size: 30px;
   border-radius: 10px;
   transition-duration: 0.2s;
-
 }
+
+/*  */
 
 button: hover {
   background-color:white;
   color: black;
   cursor: crosshair;
 }
-]
 
 
-/* Code Credits:   */
+/* trying to align images
+.left {
+  position: fixed;
+  float: left;
+  width: 250px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.right {
+  position: fixed;
+  float: right;
+  width: 250px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+*/
+
+/* images at top  */
+
+.container {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+
+
+/*
+
+Code Credits:
+
+Photo credits:
+
+  logo color wheel:
+  norway mountain: https://pixabay.com/photos/norway-mountains-nature-mountain-4970080/
+  valleyofthetemples: https://pixabay.com/photos/the-valley-of-the-temples-agrigento-3662838/
+  help handshake: https://pixabay.com/illustrations/handshake-regard-cooperate-connect-2009195/
+  about:
+  login:
+
+  */
