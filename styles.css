@@ -146,8 +146,8 @@ footer{
 }
 
 .centerimg{
-	float: left;
- width: 33.33%;
+	float: center;
+ 	width: 33.33%;
 }
 
 
