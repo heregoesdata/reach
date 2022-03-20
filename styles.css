@@ -6,16 +6,19 @@ body {
 } */
 
 body {
-  font-family: 'BhuTuka Expanded One', cursive;
+  background-image: "image/font-family: 'BhuTuka Expanded One', cursive;
   }
+
+  /* container goes hereish */
 
 /*  */
 
-logo {
-  position: fixed;
-  top: 0;
+.logo {
+  display: flex;
   margin: auto;
-}
+  width: 8rem;
+  height: 8rem;
+  }
 
 /*  */
 
@@ -31,7 +34,6 @@ logo {
 /* style links inside navigation bar */
 
 .navbar a {
-  float: left;
   color: green;
   text-decoration: none;
   font-size: 20px;
@@ -44,10 +46,12 @@ logo {
   cursor: crosshair;
 }
 
-/* move login link to the right */
+/* move login link to the right
 .navbar a.login {
   float: right;
 }
+
+*/
 
 /*  */
 
@@ -103,12 +107,6 @@ button: hover {
 */
 
 /* images at top  */
-
-.container {
-  display: inline-flex;
-  justify-content: flex-start;
-}
-
 
 
 /*
